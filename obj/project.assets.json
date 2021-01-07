@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\Senai\\C#\\MVC_Console\\MVC_Console.csproj",
       "projectName": "MVC_Console",
-      "projectPath": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\MVC_Console\\MVC_Console.csproj",
+      "projectPath": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\Senai\\C#\\MVC_Console\\MVC_Console.csproj",
       "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\MVC_Console\\obj\\",
+      "outputPath": "C:\\Users\\Felipe\\OneDrive\\Área de Trabalho\\Senai\\C#\\MVC_Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"

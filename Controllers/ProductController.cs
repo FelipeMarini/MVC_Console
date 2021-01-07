@@ -14,10 +14,18 @@ namespace MVC_Console.Controllers
         public void ListProducts()
         {
 
-            productView.List( productModel.Read() );
+            productView.List(productModel.Read());
         
         }
     
+
+        public void Register()
+        {
+
+            productModel.Insert(productView.RegisterProduct());
+
+        }
+
     
     }
 }

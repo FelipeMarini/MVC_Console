@@ -11,6 +11,7 @@ namespace MVC_Console
             
             ProductController produc = new ProductController();
 
+            produc.Register();
             produc.ListProducts();
         
         }

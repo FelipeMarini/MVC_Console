@@ -67,10 +67,28 @@ namespace MVC_Console.Models
         }
 
 
+        
+        public void Insert(Product product){
 
+
+            string [] lines = { PrepareCSVLines(product) };
+
+            File.AppendAllLines(PATH,lines);
+
+        }
+
+
+
+        public string PrepareCSVLines(Product prod){
+
+            return $"{prod.Code};{prod.Name};{prod.Price}";
+
+        }
 
 
 
 
     }
 }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
