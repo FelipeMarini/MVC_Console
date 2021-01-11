@@ -71,7 +71,7 @@ namespace MVC_Console.Models
         public void Insert(Product product){
 
 
-            string [] lines = { PrepareCSVLines(product) };
+            string[] lines = { PrepareCSVLines(product) };
 
             File.AppendAllLines(PATH,lines);
 
